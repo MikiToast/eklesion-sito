@@ -1,0 +1,9 @@
+# solo sul PC di sviluppo: note, script di preparazione e materiale grezzo
+_src/
+_build.py
+_LEGGIMI_sviluppo.md
+build.py
+*.apk
+__pycache__/
+_meta.py
+_social.py
