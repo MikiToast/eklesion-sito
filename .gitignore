@@ -7,3 +7,4 @@ build.py
 __pycache__/
 _meta.py
 _social.py
+_release.py
