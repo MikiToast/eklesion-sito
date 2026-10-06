@@ -27,7 +27,7 @@ function inietta() {
     foot.outerHTML = `
 <footer class="foot"><div class="wrap">
   <a class="brand" href="index.html"><img src="img/emblema.png" alt="" width="32" height="32">EKLESION</a>
-  <div>Il gioco di carte dell'Oratorio · versione beta ${VERSIONE}<br>© 2026 Eklesion. Tutti i diritti riservati.</div>
+  <div>Il gioco di carte dell'Oratorio · versione beta ${VERSIONE}<br>© 2026 Eklesion. Tutti i diritti riservati.<br>Le illustrazioni sono realizzate con l'aiuto dell'intelligenza artificiale.</div>
   <div><a href="come-si-gioca.html">Regole</a> · <a href="carte.html">Carte</a> · <a href="modalita.html">Modalità</a> · <a href="scarica.html">Scarica</a> · <a href="privacy.html">Privacy</a></div>
 </div></footer>`;
   }
