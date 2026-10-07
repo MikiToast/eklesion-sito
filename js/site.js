@@ -1,6 +1,6 @@
 // Barra in alto, pie' di pagina e piccole animazioni, uguali in tutte le pagine.
 const APK = "https://github.com/MikiToast/eklesion-sito/releases/latest/download/Eklesion.apk";      // sempre l'ultima versione (vedi la release del repository)
-const VERSIONE = "0.31.0";
+const VERSIONE = "0.32.0";
 const PAGINE = [
   ["index.html", "Il gioco"],
   ["come-si-gioca.html", "Come si gioca"],
@@ -28,7 +28,7 @@ function inietta() {
 <footer class="foot"><div class="wrap">
   <a class="brand" href="index.html"><img src="img/emblema.png" alt="" width="32" height="32">EKLESION</a>
   <div>Il gioco di carte dell'Oratorio · versione beta ${VERSIONE}<br>© 2026 Eklesion. Tutti i diritti riservati.<br>Le illustrazioni sono realizzate con l'aiuto dell'intelligenza artificiale.</div>
-  <div><a href="come-si-gioca.html">Regole</a> · <a href="carte.html">Carte</a> · <a href="modalita.html">Modalità</a> · <a href="scarica.html">Scarica</a> · <a href="privacy.html">Privacy</a></div>
+  <div><a href="come-si-gioca.html">Regole</a> · <a href="carte.html">Carte</a> · <a href="modalita.html">Modalità</a> · <a href="scarica.html">Scarica</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:info@eklesion.app">Contatti</a></div>
 </div></footer>`;
   }
   document.querySelectorAll("[data-apk]").forEach((a) => { a.href = APK; });
