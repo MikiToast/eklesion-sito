@@ -1,6 +1,6 @@
 // Barra in alto, pie' di pagina e piccole animazioni, uguali in tutte le pagine.
 const APK = "https://github.com/MikiToast/eklesion-sito/releases/latest/download/Eklesion.apk";      // sempre l'ultima versione (vedi la release del repository)
-const VERSIONE = "0.29.0";
+const VERSIONE = "0.30.0";
 const PAGINE = [
   ["index.html", "Il gioco"],
   ["come-si-gioca.html", "Come si gioca"],
