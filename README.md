@@ -1,6 +1,6 @@
 # Eklesion - sito
 
-Sito web di **Eklesion**, il gioco di carte dell'Oratorio per Android.
+Sito web di **Eklesion**, il gioco di carte a tema oratorio per Android.
 
 Pagine: presentazione (`index.html`), regole (`come-si-gioca.html`), carte con filtri (`carte.html`), modalità di gioco (`modalita.html`), download (`scarica.html`) e informativa sulla privacy (`privacy.html`).
 
