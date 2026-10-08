@@ -9,6 +9,7 @@ const PAGINE = [
   ["carte.html", "Le carte"],
   ["modalita.html", "Modalità"],
   ["beta.html", "Beta tester"],
+  ["feedback.html", "Feedback"],
 ];
 
 function inietta() {
