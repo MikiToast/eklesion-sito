@@ -8,6 +8,7 @@ const PAGINE = [
   ["come-si-gioca.html", "Come si gioca"],
   ["carte.html", "Le carte"],
   ["modalita.html", "Modalità"],
+  ["beta.html", "Beta tester"],
 ];
 
 function inietta() {
@@ -30,7 +31,7 @@ function inietta() {
 <footer class="foot"><div class="wrap">
   <a class="brand" href="index.html"><img src="img/emblema.png" alt="" width="32" height="32">EKLESION</a>
   <div>Il gioco di carte dell'Oratorio · versione beta ${VERSIONE}<br>© 2026 Eklesion. Tutti i diritti riservati.<br>Le illustrazioni sono realizzate con l'aiuto dell'intelligenza artificiale.</div>
-  <div><a href="come-si-gioca.html">Regole</a> · <a href="carte.html">Carte</a> · <a href="modalita.html">Modalità</a> · <a href="scarica.html">Scarica</a> · <a href="beta.html">Beta tester</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:info@eklesion.app">Contatti</a></div>
+  <div><a href="come-si-gioca.html">Regole</a> · <a href="carte.html">Carte</a> · <a href="modalita.html">Modalità</a> · <a href="scarica.html">Scarica</a> · <a href="beta.html">Beta tester</a> · <a href="feedback.html">Feedback</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:info@eklesion.app">Contatti</a></div>
 </div></footer>`;
   }
   document.querySelectorAll("[data-apk]").forEach((a) => { a.href = APK; });
