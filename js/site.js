@@ -2,7 +2,7 @@
 const APK = "https://github.com/MikiToast/eklesion-sito/releases/latest/download/Eklesion.apk";      // sempre l'ultima versione (vedi la release del repository)
 const SETUP = "https://github.com/MikiToast/eklesion-sito/releases/latest/download/Eklesion-Setup.exe";
 const WINDOWS = "https://github.com/MikiToast/eklesion-sito/releases/latest/download/Eklesion-Windows.zip";
-const VERSIONE = "0.36.0";
+const VERSIONE = "0.37.0";
 const PAGINE = [
   ["index.html", "Il gioco"],
   ["come-si-gioca.html", "Come si gioca"],
