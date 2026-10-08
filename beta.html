@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diventa beta tester di Eklesion</title>
+<meta name="description" content="Provi Eklesion prima di tutti e ci aiuti a sistemarlo: chiedi un codice invito per diventare beta tester del gioco di carte dell'Oratorio. Gratuito, senza pubblicità.">
+<meta name="theme-color" content="#0f2557">
+<!-- meta:inizio -->
+<link rel="canonical" href="https://eklesion.app/beta.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Eklesion">
+<meta property="og:locale" content="it_IT">
+<meta property="og:url" content="https://eklesion.app/beta.html">
+<meta property="og:title" content="Diventa beta tester di Eklesion">
+<meta property="og:description" content="Provi Eklesion prima di tutti e ci aiuti a sistemarlo: chiedi un codice invito per diventare beta tester del gioco di carte dell'Oratorio. Gratuito, senza pubblicità.">
+<meta property="og:image" content="https://eklesion.app/img/social.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Eklesion, il gioco di carte dell'Oratorio: una battaglia sul telefono e due carte">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Diventa beta tester di Eklesion">
+<meta name="twitter:description" content="Provi Eklesion prima di tutti e ci aiuti a sistemarlo: chiedi un codice invito per diventare beta tester del gioco di carte dell'Oratorio. Gratuito, senza pubblicità.">
+<meta name="twitter:image" content="https://eklesion.app/img/social.jpg">
+<link rel="apple-touch-icon" href="https://eklesion.app/img/apple-touch-icon.png">
+<!-- meta:fine -->
+<link rel="icon" href="img/favicon.png">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/site.js" defer></script>
+<style>
+  .beta-form { display: grid; gap: 14px; max-width: 560px; margin: 24px auto 0; text-align: left; }
+  .beta-form label { font-weight: 800; display: grid; gap: 6px; }
+  .beta-form input, .beta-form select, .beta-form textarea { font: inherit; font-weight: 600; padding: 12px 14px; border: 2px solid #b9c3e0; border-radius: 12px; background: #fff; color: #1b2a55; }
+  .beta-form textarea { min-height: 96px; resize: vertical; }
+  .beta-form small { font-weight: 600; opacity: .75; }
+  .beta-form .btn { justify-self: start; border: 0; cursor: pointer; }
+  .beta-ok { display: none; margin-top: 16px; padding: 14px 16px; border-radius: 12px; background: #e6f4ea; color: #1d5a31; font-weight: 700; }
+</style>
+</head>
+<body>
+<div id="nav"></div>
+
+<section class="sky page-head">
+  <div class="wrap">
+    <span class="eyebrow">Gioco su invito</span>
+    <h1>Diventa beta tester</h1>
+    <p>Eklesion è ancora in prova: cerchiamo chi lo provi prima di tutti e ci dica cosa funziona e cosa no.</p>
+    <p style="margin-top:22px"><a class="btn" href="#richiedi">Chiedi un codice invito</a></p>
+  </div>
+</section>
+
+<section class="paper" style="padding-top:60px">
+  <div class="wrap" style="max-width:860px">
+
+    <h2 style="color:var(--navy-2)">Cosa fa un beta tester</h2>
+    <ol class="steps">
+      <li class="rise"><h3>Gioca</h3><p>Fai il tutorial e qualche partita: contro il computer, con gli amici, nelle Lotte. Anche solo mezz'ora a settimana aiuta.</p></li>
+      <li class="rise"><h3>Segnala</h3><p>Qualcosa non funziona, una carta è troppo forte o troppo debole, una schermata non si capisce? Scrivici: dici cosa stavi facendo e cosa è successo (uno screenshot aiuta tantissimo).</p></li>
+      <li class="rise"><h3>Dai un parere</h3><p>Ogni tanto ti chiediamo cosa ti è piaciuto e cosa cambieresti. Le tue idee contano davvero: le carte e le regole si sistemano anche grazie a chi le prova.</p></li>
+    </ol>
+
+    <h2 style="margin-top:50px;color:var(--navy-2)">Cosa serve</h2>
+    <ul>
+      <li>Un telefono <b>Android</b> (7 o successivo), un computer <b>Windows</b> o un browser (anche <b>iPhone</b> e Mac, vedi <a href="scarica.html">Scarica</a>).</li>
+      <li>Un <b>codice invito</b>: te lo mandiamo noi, vale una volta sola.</li>
+      <li>Una connessione a internet.</li>
+    </ul>
+    <p>Il gioco è <b>gratuito</b>, <b>senza pubblicità</b> e senza acquisti con denaro vero. Non ti chiediamo il nome vero, il numero di telefono o la posizione: per giocare basta un nome di fantasia (vedi <a href="privacy.html">Privacy</a>).</p>
+
+    <div class="dl rise" id="richiedi" style="margin-top:50px">
+      <img src="img/emblema.png" alt="" width="130" height="130">
+      <h2>Chiedi un codice invito</h2>
+      <p>Compila i campi: si apre la tua app di posta con il messaggio già scritto, devi solo premere <b>Invia</b>. Non salviamo niente su questo sito.</p>
+      <form class="beta-form" id="beta-form" autocomplete="off">
+        <label>Un nome di fantasia (non il tuo nome vero)
+          <input id="b-nome" type="text" maxlength="30" placeholder="per esempio: Scintilla" required>
+        </label>
+        <label>Con cosa giocherai?
+          <select id="b-disp">
+            <option>Android</option>
+            <option>Windows</option>
+            <option>iPhone o iPad (browser)</option>
+            <option>Mac (browser)</option>
+            <option>Altro</option>
+          </select>
+        </label>
+        <label>Quanti anni hai?
+          <select id="b-eta">
+            <option value="18 o più">18 o più</option>
+            <option value="14-17">da 14 a 17</option>
+            <option value="meno di 14">meno di 14 (scrive un genitore)</option>
+          </select>
+          <small>Se hai meno di 14 anni, chiedi a un genitore di mandare la richiesta.</small>
+        </label>
+        <label>Qualcosa da dirci? (facoltativo)
+          <textarea id="b-note" maxlength="400" placeholder="Giochi di carte che conosci, da quale oratorio vieni, ..."></textarea>
+        </label>
+        <button class="btn" type="submit">Prepara la richiesta</button>
+        <div class="beta-ok" id="beta-ok">Si è aperta la tua app di posta. Se non è successo, scrivi a <a href="mailto:info@eklesion.app">info@eklesion.app</a> indicando nome di fantasia, dispositivo ed età.</div>
+      </form>
+      <p style="font-size:.92rem;opacity:.85;margin-top:18px">Rispondiamo di solito entro qualche giorno. Il tuo indirizzo email lo usiamo solo per risponderti e non lo conserviamo nel gioco.</p>
+    </div>
+
+    <h2 style="margin-top:60px;color:var(--navy-2)">Domande frequenti</h2>
+    <details><summary>Posso invitare i miei amici?</summary><div>Sì: ognuno chiede il proprio codice con questo modulo. Più persone provano il gioco, meglio è.</div></details>
+    <details><summary>Perdo i progressi quando il gioco esce ufficialmente?</summary><div>No: l'account e la collezione restano. Una beta serve proprio a sistemare le cose senza ricominciare da capo.</div></details>
+    <details><summary>Come segnalo un problema?</summary><div>Scrivi a <a href="mailto:info@eklesion.app?subject=Segnalazione%20Eklesion">info@eklesion.app</a> (o sul nostro canale Discord, quando lo apriamo). Racconta cosa stavi facendo e cosa è successo; se puoi, aggiungi uno screenshot e il modello del telefono.</div></details>
+    <details><summary>Come entro da un altro dispositivo?</summary><div>Collega la tua email da Profilo › Sicurezza (<b>Eklesion ID</b>): poi da qualunque dispositivo entri con l'email e un codice a 6 cifre. In alternativa usa ID e codice di recupero.</div></details>
+  </div>
+</section>
+
+<div id="foot"></div>
+<script>
+  document.getElementById("beta-form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    const v = id => document.getElementById(id).value.trim();
+    const corpo = "Ciao! Vorrei diventare beta tester di Eklesion.\n\n" +
+      "Nome di fantasia: " + v("b-nome") + "\n" +
+      "Dispositivo: " + v("b-disp") + "\n" +
+      "Età: " + v("b-eta") + "\n" +
+      (v("b-note") ? "\n" + v("b-note") + "\n" : "") + "\nGrazie!";
+    location.href = "mailto:info@eklesion.app?subject=" + encodeURIComponent("Richiesta codice invito Eklesion (beta tester)") + "&body=" + encodeURIComponent(corpo);
+    document.getElementById("beta-ok").style.display = "block";
+  });
+</script>
+</body>
+</html>
