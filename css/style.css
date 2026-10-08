@@ -48,8 +48,12 @@ p { margin: 0 0 1em; }
 .nav ul { display: flex; gap: 6px; list-style: none; margin: 0 0 0 auto; padding: 0; align-items: center; }
 .nav a.l { white-space: nowrap; color: #dbe6ff; text-decoration: none; padding: 8px 14px; border-radius: 999px; font-weight: 700; font-size: .98rem; }
 .nav a.l:hover, .nav a.l.on { background: rgba(255, 255, 255, .13); color: #fff; }
+.nav .soc { display: flex; gap: 6px; margin: 0 4px; }
+.soc-ico { width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; background: rgba(255, 255, 255, .13); color: #fff; transition: background .15s, transform .15s; }
+.soc-ico:hover { background: var(--gold); color: #3a2606; transform: translateY(-2px); }
+.soc-ico svg { width: 20px; height: 20px; }
 .burger { display: none; margin-left: auto; background: none; border: 0; color: #fff; font-size: 1.9rem; cursor: pointer; }
-@media (max-width: 1020px) {
+@media (max-width: 1240px) {
   .burger { display: block; }
   .nav ul { position: absolute; top: 66px; left: 0; right: 0; flex-direction: column; background: var(--navy); padding: 12px 20px 20px; display: none; margin: 0; gap: 4px; border-bottom: 2px solid var(--gold-d); }
   .nav ul.open { display: flex; }
