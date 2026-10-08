@@ -1,6 +1,8 @@
 // Barra in alto, pie' di pagina e piccole animazioni, uguali in tutte le pagine.
 const APK = "https://github.com/MikiToast/eklesion-sito/releases/latest/download/Eklesion.apk";      // sempre l'ultima versione (vedi la release del repository)
-const VERSIONE = "0.33.1";
+const SETUP = "https://github.com/MikiToast/eklesion-sito/releases/latest/download/Eklesion-Setup.exe";
+const WINDOWS = "https://github.com/MikiToast/eklesion-sito/releases/latest/download/Eklesion-Windows.zip";
+const VERSIONE = "0.34.0";
 const PAGINE = [
   ["index.html", "Il gioco"],
   ["come-si-gioca.html", "Come si gioca"],
@@ -32,6 +34,8 @@ function inietta() {
 </div></footer>`;
   }
   document.querySelectorAll("[data-apk]").forEach((a) => { a.href = APK; });
+  document.querySelectorAll("[data-win]").forEach((a) => { a.href = WINDOWS; });
+  document.querySelectorAll("[data-setup]").forEach((a) => { a.href = SETUP; });
   document.querySelectorAll("[data-versione]").forEach((e) => { e.textContent = VERSIONE; });
 }
 
