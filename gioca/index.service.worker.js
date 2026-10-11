@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1791735189|7275400';
+const CACHE_VERSION = '1791739204|7769672';
 /** @type {string} */
 const CACHE_PREFIX = 'Eklesion-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
